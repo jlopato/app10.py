@@ -1,8 +1,8 @@
-from math import *
-# input from users
+# building a basic calculator
 
-name = input("enter your name: ")
-age = input("enter your age: ")
+num1 = input("Enter num1: ")
+num2 = input("Enter num2: ")
 
-print("Hello "+ name +" ! Your are "+ age)
+result = float (num1) + float(num2)
 
+print(result)
