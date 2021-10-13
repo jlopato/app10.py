@@ -1,3 +1,5 @@
 from math import *
-print(3*3)
+# input from users
+
+print(input("enter your name: "))
 
