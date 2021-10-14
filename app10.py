@@ -14,4 +14,3 @@ friends[2] = "Salah"
 
 print(friends)
 
-print(4532)
