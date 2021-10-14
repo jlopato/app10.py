@@ -13,3 +13,4 @@ print(friends[1:3])
 friends[2] = "Salah"
 
 print(friends)
+
