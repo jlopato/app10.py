@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lists functions:
 
 luck_number = [4,8,15,16,23,42]
@@ -42,3 +43,25 @@ print(lucky_numbers)
 friends2=friends.copy()
 
 print(fiends2)
+=======
+# Tuples :
+
+coordinates = (4,5)
+
+coordinates[1] = 6
+
+print(coordinates)
+
+
+coordinates = (4,5)
+
+- It is immutable, cant be changed or modified
+
+- You can't add, remove, modify elements init.
+
+
+
+coordinates = (4,5)
+
+print(coordintaes[0])
+
