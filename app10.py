@@ -1,19 +1,18 @@
-# If Statement & comparisons:
+# Building a better calculator :
 
-def max_num(num1,num2,num3):
-    if num1 >= num2 and num1 >= num3:
-        return num1
-    elif num2 >= num1 and num2 >= num3:
-        return num2
-    else:
-        return num3
+# 3 variables
 
-print(max_num(180,150,156))
+num_1 = int(input("Enter num1 : "))
+op = input("Enter OP: ")
+num_2 = int(input("Enter num2: "))
 
-#
-# >=
-# <=
-# ==
-# !=
-# <
-# >
+if op == "+":
+    print(num_1 + num_2)
+elif op == "-":
+    print(num_1-num_2)
+elif op == "/":
+    print(num_1/num_2)
+elif op == "*":
+    print(num_1 * num_2)
+else:
+    print("Invalid operator")
