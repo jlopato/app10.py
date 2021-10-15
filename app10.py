@@ -1,9 +1,14 @@
-# Return Statement :
+# If Statement :
 
-def cube(num):
-    print("Hello")
-    return num * num * num
 
-result = cube(3)
+is_male = False
+is_tall = False
 
-print(result)
+if is_male and is_tall:
+    print("you are a tall male")
+elif is_male and not(is_tall):
+    print("you are a short male")
+elif not(is_male) and is_tall:
+    print("you are a tall woman")
+else:
+    print("you are not tall nor male")
