@@ -10,5 +10,10 @@ def max_num(num1,num2,num3):
 
 print(max_num(180,150,156))
 
-
-
+#
+# >=
+# <=
+# ==
+# !=
+# <
+# >
