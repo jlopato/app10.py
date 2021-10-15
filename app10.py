@@ -1,19 +1,14 @@
-# Building a better calculator :
+# Dictionaries :
 
-# 3 variables
+monthConversions = {
+    1: "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+}
 
-num1 = int(input("Enter num1 : "))
-op = input("Enter OP: ")
-num2 = int(input("Enter num2: "))
-
-if op == "+":
-    print(num1 + num2)
-elif op == "-":
-    print(num1-num2)
-elif op == "/":
-    print(num1/num2)
-elif op == "*":
-    print(num1 * num2)
-else:
-    print("Invalid operator")
-
+print(monthConversions.get("Feb"))
