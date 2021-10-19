@@ -7,4 +7,4 @@ number_grid = [
     [0],
 ]
 
-print(number_grid[1][1])
+print(number_grid[2][2])
