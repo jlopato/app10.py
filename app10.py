@@ -1,9 +1,10 @@
-# Eponent function :
+# 2 dimensions list and nested loops :
 
-#                        2      3
-def raise_to_power (base_num,power_num):
-    result=1
-    for i in range(power_num):
-        result = result * base_num
-    return result
-print(raise_to_power(2,10))
+number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0],
+]
+
+print(number_grid[1][1])
