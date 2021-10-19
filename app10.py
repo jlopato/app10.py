@@ -1,4 +1,5 @@
 # For Loop :
 
-for letter in "my coffe":
-    print(letter)
+friends = ["Ali","khaled","Ahmed"]
+for name in friends:
+    print(name)
