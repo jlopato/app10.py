@@ -6,4 +6,4 @@ def raise_to_power (base_num,power_num):
     for i in range(power_num):
         result = result * base_num
     return result
-print(raise_to_power(2,3))
+print(raise_to_power(2,10))
