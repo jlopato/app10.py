@@ -1,15 +1,21 @@
-# build a translator: koko language
+# 2D Lists and nested Loops:
 
 
 
-def translate(phrase):
-    translation = ""
-    for letter in phrase:
-        if letter in "AEIOUaeiou":
-            translation = translation + "k"
-        else:
-            translation = translation + letter
-    return translation
-print(translate(input("Enter a phrase: ")))
+# the grid will have 4 rows and 3 columns
 
+number_grid = [
 
+    [1,2,3],
+
+    [4,5,6],
+
+    [7,8,9],
+
+    [0],
+
+]
+
+print (number_grid[0][0])  #First index is for the row the second is for column
+
+print (number_grid[2][2])
