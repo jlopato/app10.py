@@ -1,8 +1,8 @@
 # Try Except:
 try:
-    10/0
+
     number = int(input("Enter a number: "))
     print(number)
-except ZeroDivisionError:
-    print("Divided by zero")
+except ValueError:
+    print("It's not a number")
 
