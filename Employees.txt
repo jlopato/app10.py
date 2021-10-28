@@ -1,8 +1,5 @@
-Ali - Accountant
-Ahmed - Accountant
+
+John - Engineer 
+Ali - Accountant 
+Ahmed - Accountant 
 Sarah - Receptionist
-Walid - Manager
-Adel - Engineer
- John - Engineer
-John - Engineer
-John - Engineer
