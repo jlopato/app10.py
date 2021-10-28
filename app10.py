@@ -18,4 +18,6 @@ number_grid = [
 
 for row in number_grid:
 
-    print (row)
+    for col in row:
+
+        print(col)
