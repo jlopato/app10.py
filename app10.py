@@ -16,6 +16,6 @@ number_grid = [
 
 ]
 
-print (number_grid[0][0])  #First index is for the row the second is for column
+for row in number_grid:
 
-print (number_grid[2][2])
+    print (row)
