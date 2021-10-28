@@ -1,23 +1,13 @@
-# 2D Lists and nested Loops:
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                translation = translation + "K"
+            else:
+                translation = translation + letter
+        else:
+            translation = translation + letter
+    return translation
+print(translate(input("Enter a phrase: ")))
 
-
-
-# the grid will have 4 rows and 3 columns
-
-number_grid = [
-
-    [1,2,3],
-
-    [4,5,6],
-
-    [7,8,9],
-
-    [0],
-
-]
-
-for row in number_grid:
-
-    for col in row:
-
-        print(col)
