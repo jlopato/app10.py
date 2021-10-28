@@ -1,8 +1,6 @@
 # Try Except:
+
 try:
-
-    number = int(input("Enter a number: "))
-    print(number)
-except ValueError as err:
+    print(10/0)
+except ZeroDivisionError as err:
     print(err)
-
