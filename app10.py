@@ -10,3 +10,5 @@ car3 = car("Nissan",2019,"black",1500)
 #print(car3.brand)
 
 truck1 = trucks("Mercedes",2020,"white",25000)
+
+print(truck1.is_expensive())
