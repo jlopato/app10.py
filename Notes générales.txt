@@ -1,0 +1,43 @@
+Classes & Objects:
+
+
+
+- Classes and objects are extremely usefull in python programming and
+
+they can help you to make your program more organisedand more powerful
+
+- When we write a program we have to work with different types of data
+
+- Data like strings bolean numbers we have also structure that store
+
+those data like list dictionary but not all of data can be represnted in
+
+numbers, bolean and string. There is alot of things in real world
+
+we cant reprsent it in string or just a number,
+
+something like a phone or computer or a person.
+
+Those data types cant cover that.
+
+-So with classes and objects we can create our own data types so we can
+
+create a phone data type and it will represent the phone, we can create
+
+a class for it. With the class you can define your own data type.
+
+- let us hypothectically say that we are writing a program for a university
+
+and we want to model a student we want to create a class to to represent student
+
+i want to model a real world object which student. We dont have student
+
+data type, what we can actually do is to create a class for a student.
+
+
+
+- create a new file call it car.py and in it we will write a class,
+
+now we can use thangs like strings, bolean and numbers inside the class student
+
+to map out what car should be and what car should have.This is to model car.
