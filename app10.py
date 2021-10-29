@@ -12,3 +12,4 @@ car3 = car("Nissan",2019,"black",1500)
 truck1 = trucks("Mercedes",2020,"white",25000)
 
 print(truck1.is_expensive())
+truck1.is_big()
