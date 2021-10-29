@@ -1,2 +1,3 @@
 from car import car
-class trucks:
+
+class trucks(car):
