@@ -8,4 +8,4 @@ car2 = car("Ferrari",2019,"yellow",50000)
 car3 = car("Nissan",2019,"black",1500)
 #print(car3.brand)
 
-print(car3.is_expensive())
+print(car2.is_expensive())
