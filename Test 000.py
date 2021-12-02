@@ -7,4 +7,5 @@ le_wagon_team = [
 
 
 
-print(le_wagon_team.append[3]['hobbies':['saslah']])
+print(le_wagon_team[3]['hobbies'].append('skiing'))
+print(le_wagon_team[3])
